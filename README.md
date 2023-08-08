@@ -11,3 +11,21 @@ To understand how to approach this problem using data science, let’s first und
 Schuster would like to better understand the customers’ payment behaviour based on their past payment patterns (customer segmentation).
 Using historical information, it wants to be able to predict the likelihood of delayed payment against open invoices from its customers.
 It wants to use this information so that collectors can prioritise their work in following up with customers beforehand to get the payments on time.
+
+# Solution Approach:
+
+For this case study we're going to use logistic regression model to predict whether the customer is going to delay the payment or not.
+
+The steps involved for this case study are mentioned below:
+
+Data Loading
+Data Exploration and pre-preprocessing which will include following steps: a. Missing value handling b. Outlier handling c. Feature engineering
+Model Building using statsmodel and VIF
+Model Performance Evaluation using Probability Calibration, ROC Curve, Precision-Recall Curve
+Final recommendation.
+
+# Files Submitted:
+ 
+README file for information
+Python commented file: Juputer Notebook.
+Presentation: Present the analysis. (PDF format)
